@@ -16,7 +16,7 @@
   <meta content="website" property="og:type"/>
   <meta content="https://lwfiles.mycourse.app/6582b31a00275284e27c0fe4-public/493ecfb18a36e904cbe8f40bc482c9c6.png" property="og:image"/>
   <meta content="School of Code" property="og:site_name"/>
-  <meta content="9e8160ecea832c185a54e03e1130bf5b96c3b3af85f326d99fa7c11edf2a2cbb" name="csrf-token"/>
+  <meta content="55a6484e7a083f41c56ebabf48490b44f2654ad8403119006a7aee0bbb87f1f4" name="csrf-token"/>
   <link href="https://learn.schoolofcode.co.uk/" rel="canonical"/>
   <link href="https://lwfiles.mycourse.app/6582b31a00275284e27c0fe4-public/83ec6bd224a5622bec826e63e559c011.png" rel="icon" type="image/png"/>
   <link href="https://lwfiles.mycourse.app/6582b31a00275284e27c0fe4-public/83ec6bd224a5622bec826e63e559c011.png" rel="apple-touch-icon" type="image/png"/>
@@ -1964,7 +1964,7 @@
   <script async="" src="https://load.fomo.com/api/v1/1SC7FarmwnRxgRnvzlDwNQ/load.js" type="text/javascript">
   </script>
   <script>
-   (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d70d146f8e3943f',t:'MTcyOTY3Njk3MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+   (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d71032adc7d94a6',t:'MTcyOTY3OTAxMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
   </script>
  </body>
 </html>
