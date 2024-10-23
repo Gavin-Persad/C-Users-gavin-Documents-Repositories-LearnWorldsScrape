@@ -60,7 +60,7 @@ def login_and_scrape(url, username, password, output_file):
 # Example usage:
 login_and_scrape(
     "https://learn.schoolofcode.co.uk/path-player?courseid=bc17-on&unit=667931af9ce0f110a50f7467Unit",  # Learner page URL
-    "",  # Replace with your actual username
-    "",  # Replace with your actual password
+    "gavinapersad@gmail.com",  # Replace with your actual username
+    "FellowsSoup4@",  # Replace with your actual password
     'output.md'  # Output file to save the scraped HTML
 )
