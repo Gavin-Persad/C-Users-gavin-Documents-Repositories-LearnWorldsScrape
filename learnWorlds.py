@@ -9,6 +9,6 @@ def scrape_and_save(url, output_file):
         md_file.write(soup.prettify())
 
 scrape_and_save(
-    "https://learn.schoolofcode.co.uk/author/pageseditor?page=ebook667931af9ce0f110a50f7467-667931b027143&type=ebook&from=course&course-title-id=bc17-on&unit-id=667931af9ce0f110a50f7467&direct=1", 
+    "https://learn.schoolofcode.co.uk/path-player?courseid=soc-onboarding&unit=65be2ca7536e31c52c0c3388Unit", 
     'output.md'
 )
