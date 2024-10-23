@@ -1,10 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
 
-def scrape_and_save(url, output_file):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    
+def login_and_scrape(url, username, password, output_file):
+    session = requests.Session()
+    login_url = 'https://example.com/login'  # Replace with the actual login URL
+    data = {
+        'username': username,
+        'password': password
+    }
+
+    session.post(login_url, data=data)
+
+    response = session.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
     with open(output_file, 'w', encoding='utf-8') as md_file:
         md_file.write(soup.prettify())
         
@@ -47,7 +55,11 @@ params = {
 
 response = requests.get('https://learn.schoolofcode.co.uk/path-player', params=params, cookies=cookies, headers=headers)
 
-scrape_and_save(
-    "https://learn.schoolofcode.co.uk/path-player?courseid=soc-onboarding&unit=65be2ca7536e31c52c0c3388Unit", 
+    
+
+login_and_scrape(
+    "https://learn.schoolofcode.co.uk/path-player?courseid=bc17-on&unit=667931af9ce0f110a50f7467Unit",
+    "gavinapersad@gmail.com", 
+    "FellowsSoup4@",
     'output.md'
 )
