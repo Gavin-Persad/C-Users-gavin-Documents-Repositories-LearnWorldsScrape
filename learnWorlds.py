@@ -78,20 +78,20 @@ def login_and_scrape(url, output_file):
     markdown_content = f"## Extracted Content\n\n{content}"
 
     # Save to an MDX file with front matter
-    with open(output_file, 'w', encoding='utf-8') as md_file:
-        md_file.write('---\n')
-        md_file.write('title: "Extracted Content"\n')
-        md_file.write('---\n\n')
-        md_file.write(markdown_content)
+    with open(output_file, 'w', encoding='utf-8') as mdx_file:
+        mdx_file.write('---\n')
+        mdx_file.write('title: "Extracted Content"\n')
+        mdx_file.write('---\n\n')
+        mdx_file.write(markdown_content)
 
     # Optional: Save prettified HTML to a file for debugging
     with open('pretty_output.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
-    print("Content extracted and saved to output.md")
+    print("Content extracted and saved to output.mdx")
 
 # Usage
 login_and_scrape(
-    'https://learn.schoolofcode.co.uk/path-player?courseid=bc17-on&unit=6681516e59b7881aa000042cUnit', 
-    'output.md'  
+    'https://learn.schoolofcode.co.uk/path-player?courseid=lrn-achievements&unit=667536b302a6de374f0187f9Unit', 
+    'output.mdx'  
 )
